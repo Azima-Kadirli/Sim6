@@ -9,7 +9,7 @@ namespace Sim6.ViewModel.Project
         [MinLength(10)]
         public string Title { get; set; }
         [Required]
-        public string Image { get; set; }
+        public IFormFile Image { get; set; }
         [Required]
         public int CategoryId { get; set; }
         
